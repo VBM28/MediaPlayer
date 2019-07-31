@@ -120,14 +120,6 @@ public class Controller {
     }
 
     @FXML
-    private void slowerButtonAction() {
-
-        if (mediaPlayer != null) {
-            mediaPlayer.setRate(0.5);
-        }
-    }
-
-    @FXML
     private void slowButtonAction() {
 
         if (mediaPlayer != null) {
@@ -139,14 +131,6 @@ public class Controller {
     private void fastButtonAction() {
         if (mediaPlayer != null) {
             mediaPlayer.setRate(1.5);
-        }
-    }
-
-    @FXML
-    private void fasterButtonAction() {
-
-        if (mediaPlayer != null) {
-            mediaPlayer.setRate(2);
         }
     }
 
