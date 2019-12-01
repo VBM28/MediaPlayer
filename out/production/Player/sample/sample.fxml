@@ -28,8 +28,10 @@
                     <Button onAction="#pauseButtonAction" text="Pause" />
                     <Button onAction="#stopButtonAction" text="Stop"/>
                     <Button onAction="#muteButtonAction" text="Mute" />
+                    <Button onAction="#slowerButtonAction" text="&lt;&lt;&lt;" />
                     <Button onAction="#slowButtonAction" text="&lt;&lt;" />
                     <Button onAction="#fastButtonAction" text="&gt;&gt;" />
+                    <Button onAction="#fasterButtonAction" text="&gt;&gt;&gt;" />
                     <Button onAction="#exitButtonAction" text="Exit" />
                     <Label text="Volume"/>
                     <Slider fx:id="volumeSlider"/>
